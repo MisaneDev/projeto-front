@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODS 5 - IGUALDADE DE GÊNERO</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        /* Estilo para divisores */
+        .line {
+            width: 170px; /* Comprimento da linha */
+            margin: center; /* Centralização e espaçamento */
+        }
+    </style>
+</head>
+<body>
+<!-- Menu de Navegação -->
+<nav class="navbar">
+    <div class="nav-container">
+        <button class="hamburger" aria-label="Menu" aria-expanded="false">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+        <ul class="nav-list">
+            <li><a href="#sessao1">Início</a></li>
+            <li><a href="#sessao2">Sobre</a></li>
+            <li><a href="#formulario">Formulário</a></li>
+            <li><a href="./cadastro.html">Cadastro</a></li>
+            <li><a href="./login.html">Login</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Sessão 1 -->
+<section id="sessao1" class="sessao1">
+    <div class="line above"></div> <!-- Linha acima --> 
+    <div class="sessao1-conteudo">
+        <div class="texto-e-botao">
+            <h1 class="text1">OBJETIVO DA</h1> 
+            <h1 class="text2">IGUALDADE</h1>
+            <h1 class="text2">DE GÊNERO</h1>
+            <h2 class="desc1">Oportunidades iguais independente do gênero de nascimento</h2>
+            <h3 class="desc">Garantir que homens e mulheres tenham os mesmos direitos e oportunidades na vida.</h3>
+            <a href="#formulario" class="botao">Saiba Mais</a>
+        </div>
+        <div class="imagem">
+            <img src="assets/imagens/icon1.png" alt="Ícone Representativo">
+        </div>
+    </div>
+</section>
+<!-- Sessão 2: Princípios -->
+<section id="sessao2" class="sessao2"> 
+    <h2 class="prin">Princípios</h2>
+    <div class="line below"></div> <!-- Linha abaixo -->
+    <p>A igualdade de gênero promove o tratamento justo e equitativo de todas as pessoas, independentemente de seu gênero, garantindo os mesmos direitos e oportunidades para todos. Esse princípio busca eliminar barreiras como estereótipos e discriminações que limitam o potencial de indivíduos, especialmente de mulheres e minorias de gênero, em áreas como educação, trabalho e participação política.<br></p>
+    <p>Além de um valor ético, a igualdade de gênero beneficia toda a sociedade, promovendo prosperidade e inovação. Ao permitir que cada pessoa desenvolva suas habilidades e contribua plenamente, cria-se um ambiente mais justo e produtivo, com ganhos para todos.</p>
+    <img class="fem" src="assets/imagens/feminismo.jpg">
+    <a href="https://www.cedm.pr.gov.br/Pagina/Direitos-da-Mulher" target="_blank">https://www.cedm.pr.gov.br/Pagina/Direitos-da-Mulher</a>
+</section>
+
+<!-- Sessão 2: Contribuição dos ODS -->
+<section class="sessao2"> 
+    <div class="line above"></div> <!-- Linha acima -->
+    <h2 class="cont">Contribuição dos ODS</h2>
+    <p>Os Objetivos de Desenvolvimento Sustentável (ODS) da ONU contribuem para a igualdade de gênero ao estabelecer metas específicas para eliminar a discriminação e a violência de gênero. O ODS 5, em particular, promove a participação plena de mulheres e meninas em todos os setores, busca a igualdade no acesso à educação e ao trabalho, e defende direitos iguais em legislações e políticas. Essa abordagem integrada fortalece a construção de sociedades mais justas e inclusivas globalmente.</p>
+</section>
+
+    <!-- Imagem Representativa -->
+    <section class="representativa">
+        <section class="imgsessao"> 
+            <img class="img-ods" src="assets/imagens/IMG_5129 1.png" alt="Imagem representativa"> 
+        </section>
+        <section class="imgsessao"> 
+            <a href="https://www.globalgoals.org/take-action/" target="_blank">https://www.globalgoals.org/take-action/</a>
+        </section>
+    </section>
+   
+
+    <!-- Formulário de Contato -->
+    <section id="formulario" class="sessao-formulario">
+        <div class="line above"></div> <!-- Linha acima -->
+        <h2 class="saiba">Saiba Mais sobre o Projeto</h2>
+        <p class="coment">Deixe um comentário para nós</p>
+        <form class="formulario">
+            <label for="nome">
+                <span class="material-icons">person</span> Nome
+            </label>   
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+    
+            <label for="email">
+                <span class="material-icons">mail</span> Email
+            </label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+    
+            <label for="telefone">
+                <span class="material-icons">phone</span> Telefone
+            </label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+
+            <label for="Senha">
+                <span class="material-icons">lock</span> Senha
+            </label>   
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" rows="4" required></input>
+    
+            <label for="mensagem">
+                <span class="material-icons">chat</span> Mensagem
+            </label>
+            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="4" required></textarea>
+    
+            <a href="./login.html">
+                <button type="button">Enviar</button>
+            </a>
+              
+              
+        </form>
+    </section>
+    
+
+    <!-- Rodapé -->
+    <section class="sessao3">
+        <p class="fim">Desenvolvido por Maria Luísa Palácios</p>
+        <a class="linkfim" href="https://github.com/MisaneDev" target="_blank">  - https://github.com/MisaneDev</a>
+    </section>
+</body>
+</html>
