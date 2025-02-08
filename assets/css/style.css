@@ -216,13 +216,14 @@ textarea {
     height: 50px;
 }
 
+
 /* Rodapé */
-.rodape {
-    background-color: #333;
-    color: white;
+.sessao3 {
     text-align: center;
+    background-color: #EC402A;
+    color: white;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: auto; /* Isso vai garantir que o rodapé vá para o fundo */
 }
 
 .rodape p {
@@ -263,6 +264,7 @@ textarea {
 
 /* Estrutura da Sessão */
 .sessao-formulario {
+    margin-top: 50px;
     padding: 40px 20px;
     background-color: white;
     display: flex;
@@ -401,6 +403,8 @@ input::placeholder, textarea::placeholder {
     border-radius: 10px; 
     margin: 10px auto; 
     margin-bottom: 0px;
+    margin: center; /* Centralização e espaçamento */
+
 }
 
 .loginses {
@@ -477,4 +481,43 @@ input::placeholder, textarea::placeholder {
     .nav-list li {
         margin: 10px 0;
     }
+}
+
+.btn-admin {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-admin:hover {
+    background-color: #b71c1c;
+}
+
+.cadastrar {
+    max-width: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.limpar {
+    max-width: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.campo-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0px 130px;
 }
